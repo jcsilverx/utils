@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Library (Monorepo)",
+  "compilerOptions": {
+    /**
+     * BASE OPTIONS
+     */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+
+    /**
+     * STRICTNESS OPTIONS
+     */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+
+    /**
+     * EMIT RULES
+     */
+    "noEmit": true,
+
+    /**
+     * LIBRARY OPTIONS
+     */
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+
+    /**
+     * NO-DOM OPTIONS
+     */
+    "lib": ["ES2022"],
+
+    /**
+     * OTHER OPTIONS
+     */
+    "forceConsistentCasingInFileNames": true,
+
+    /**
+     * MORE OPTIONS
+     */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "outDir": "dist/esm"
+  },
+  "include": ["src", "**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
