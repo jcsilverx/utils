@@ -1,5 +1,11 @@
 # @flt-ui2/is-function
 
+## 1.0.5
+
+### Patch Changes
+
+- 4b4f1ce: renamed module .mjs to .js
+
 ## 1.0.4
 
 ### Patch Changes
