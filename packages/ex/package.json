@@ -1,0 +1,42 @@
+{
+  "name": "@flt-ui2/ex",
+  "version": "0.0.0",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      }
+    }
+  },
+  "type": "module",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules dist",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/utils": "^8.15.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "homepage": "https://flt-ui.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flt-ui/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flt-ui/configs/issues"
+  }
+}
