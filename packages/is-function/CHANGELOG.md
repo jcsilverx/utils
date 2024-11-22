@@ -1,5 +1,11 @@
 # @flt-ui2/is-function
 
+## 1.0.4
+
+### Patch Changes
+
+- 97fd632: changed to .js
+
 ## 1.0.3
 
 ### Patch Changes
