@@ -1,5 +1,11 @@
 # @flt-ui2/is-function
 
+## 1.0.3
+
+### Patch Changes
+
+- e3e4cf3: Added type declaration to package.json
+
 ## 1.0.2
 
 ### Patch Changes
