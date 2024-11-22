@@ -2,6 +2,7 @@
   "name": "@flt-ui2/is-function",
   "version": "1.0.1",
   "license": "MIT",
+  "type": "module",
   "exports": {
     ".": {
       "import": {
@@ -10,7 +11,6 @@
       }
     }
   },
-  "types": "./dist/esm/index.d.mts",
   "module": "./dist/esm/index.mjs",
   "files": [
     "dist",
@@ -24,8 +24,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
   "peerDependencies": {},
+  "dependencies": {},
   "devDependencies": {
     "tsup": "^8.3.5",
     "eslint": "^9.15.0",
