@@ -60,6 +60,18 @@ importers:
         specifier: ^5.6.3
         version: 5.6.3
 
+  packages/is-number:
+    devDependencies:
+      '@flt-ui2/types':
+        specifier: workspace:*
+        version: link:../types
+      tsup:
+        specifier: ^8.3.5
+        version: 8.3.5(typescript@5.6.3)
+      typescript:
+        specifier: ^5.6.3
+        version: 5.6.3
+
   packages/is-string:
     devDependencies:
       eslint:
