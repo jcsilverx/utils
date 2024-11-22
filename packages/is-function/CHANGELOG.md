@@ -1,5 +1,11 @@
 # @flt-ui2/is-function
 
+## 1.0.2
+
+### Patch Changes
+
+- 6eecf37: Added type module
+
 ## 1.0.1
 
 ### Patch Changes
