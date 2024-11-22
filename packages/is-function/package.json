@@ -1,0 +1,33 @@
+{
+  "name": "@flt-ui2/is-function",
+  "version": "0.0.0",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.mts",
+        "default": "./dist/esm/index.mjs"
+      }
+    }
+  },
+  "module": "./dist/esm/index.mjs",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules dist",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "eslint": "^9.15.0",
+    "typescript": "^5.6.3"
+  }
+}
