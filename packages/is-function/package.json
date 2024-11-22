@@ -10,6 +10,7 @@
       }
     }
   },
+  "types": "./dist/esm/index.d.mts",
   "module": "./dist/esm/index.mjs",
   "files": [
     "dist",
