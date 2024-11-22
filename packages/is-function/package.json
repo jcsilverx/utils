@@ -12,6 +12,7 @@
     }
   },
   "module": "./dist/esm/index.mjs",
+  "types": "./dist/esm/index.d.mts",
   "files": [
     "dist",
     "README.md"
