@@ -1,4 +1,4 @@
-# `@flt-ui2/eslint-config-testing-library`
+# `eslint-config-testing-library`
 
 ## Installation
 
