@@ -1,0 +1,59 @@
+{
+  "name": "@flt-ui2/eslint-config-testing-library",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": false,
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      }
+    },
+    "./react": {
+      "import": {
+        "types": "./dist/esm/configs/react.d.ts",
+        "default": "./dist/esm/configs/react.js"
+      }
+    },
+    "./vue": {
+      "import": {
+        "types": "./dist/esm/configs/vue.d.ts",
+        "default": "./dist/esm/configs/vue.js"
+      }
+    }
+  },
+  "type": "module",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules dist",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-plugin-testing-library": "^7.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.15.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/utils": "^8.16.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "homepage": "https://flt-ui.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flt-ui/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flt-ui/configs/issues"
+  }
+}
