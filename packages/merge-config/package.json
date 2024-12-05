@@ -1,0 +1,43 @@
+{
+  "name": "@flt-ui2/merge-config",
+  "version": "0.0.0",
+  "private": false,
+  "homepage": "https://flt-ui.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flt-ui/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flt-ui/configs/issues"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      }
+    }
+  },
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf node_modules dist",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
